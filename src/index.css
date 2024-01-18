@@ -7,6 +7,6 @@ body {
   font-family: 'Satoshi', sans-serif;
 }
 
-.header {
+.header, .sub-headline, .main-headline {
   font-family: 'Rubik', sans-serif;
 }
