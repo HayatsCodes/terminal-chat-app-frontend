@@ -20,11 +20,11 @@ const Hero: React.FC<HeroProps> = ({ isClickedMenu }) => {
                 Get Started
                 <FaArrowRight />
             </button>
-            <div className="w-[568px] h-[568px] flex-shrink-0 rounded-full bg-[#CBFC01] mt-24">
+            <div className="w-[568px] h-[568px] flex-shrink-0 rounded-full bg-[#CBFC01] mt-16">
                 <img className="w-[500px] h-[260px] flex-shrink-0 rotate-[-45deg] rounded-[31.676px] border-2.5 border-solid border-white border-opacity-50 mt-4" src={demoImg} alt="tarminal-chat-app demo" />
                 <img className="w-[500px] h-[260px] flex-shrink-0 rotate-[-45deg] rounded-[31.676px] border-2.5 border-solid border-white border-opacity-50 mt-12 ml-4" src={demoImg} alt="tarminal-chat-app demo" />
             </div>
-            <div className="mt-28"></div>
+           
         </div>
     )
 }
