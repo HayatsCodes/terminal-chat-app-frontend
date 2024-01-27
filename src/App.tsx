@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import GettingStarted from './components/GettingStarted'
 
 const App = () => {
   const [isClickedMenu, setIsClickedMenu] = useState(false);
@@ -14,6 +15,7 @@ const App = () => {
       <Header isClickedMenu={isClickedMenu} updateIsClickedMenu={updateIsClickedMenu}/>
       <Hero isClickedMenu={isClickedMenu}/>
       <Features />
+      <GettingStarted />
     </div>
   )
 }

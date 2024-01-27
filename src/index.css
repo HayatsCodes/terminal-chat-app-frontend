@@ -10,3 +10,7 @@ body {
 .header, .sub-headline, .main-headline, .features, .feature-headline {
   font-family: 'Rubik', sans-serif;
 }
+
+.cta {
+  font-family: monospace;
+}

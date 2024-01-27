@@ -25,8 +25,7 @@ const Header: React.FC<HeaderProps> = ({isClickedMenu, updateIsClickedMenu}) => 
         {isClickedMenu && (
           <div className="flex flex-col -mr-4 gap-3 text-white text-opacity-70">
             <a href="#">Features</a>
-            <a href="#">Demo</a>
-            <a href="#">Installation</a>
+            <a href="#">NPM</a>
             <a href="#">GitHub</a>
           </div>
         )}
