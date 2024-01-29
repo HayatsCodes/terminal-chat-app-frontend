@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className='header w-[80%] mx-auto overflow-hidden'>
       <Header isClickedMenu={isClickedMenu} updateIsClickedMenu={updateIsClickedMenu}/>
-      <Hero isClickedMenu={isClickedMenu}/>
+      <Hero />
       <Features />
       <GettingStarted />
     </div>

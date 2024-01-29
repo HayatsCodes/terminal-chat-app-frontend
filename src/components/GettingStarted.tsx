@@ -1,6 +1,6 @@
 const GettingStarted = () => {
   return (
-    <div>
+    <div id="usage">
       <div className="text-xl text-[#CBFC01] font-semibold mb-4">
         Getting Started
       </div>
