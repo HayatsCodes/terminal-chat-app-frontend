@@ -6,7 +6,7 @@ const GettingStarted = () => {
       </div>
       <ol className="text-white text-lg flex flex-col gap-4 mb-4">
         <li>
-          1. Start the chat application: <span className="text-[#CBFC01] text-center">`terminal-chat-app start`</span>
+          1. Start the chat application: <span className="text-[#CBFC01] text-center">`tarminal-chat-app start`</span>
         </li>
         <li>
           2. Follow the on-screen authentication options to <span className="text-[#CBFC01]">login or register a new account</span>
